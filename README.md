@@ -30,3 +30,21 @@ Everything throughout the training including exercises will be in this repositor
 
     * **Second way using Command Line:** If you have PHP folder inside **C:\php** and want to add to the path variable, we can run the below command.
       `setx path "%path%;c:\php"`
+
+## Enable Live Reload with VSCode Live Server Extention
+
+1.  Install VS Code from Microsoft. (code editor)
+2.  Install VS Code Live Server. (extension to code editor)
+3.  Install the browser add-on;
+    1.  Chrome or Firefox.
+4.  First run server on your machine. in our case just run.
+    `php -S localhost:8000`
+5.  Then press **CTRL + Shift + p** inside VSCode and then look for **Live Server: Open with Live Server** and press enter.
+6.  On the Browser, click on the **Live Server Extention** then enter the neccesary fields (screenshot below)
+
+    * **Actual Server Address:** is the address where your server is located and the port (localhost:8000).
+    * **Live Server Address:** is the address where your VS code extension is running.
+
+    ![picture alt](./live-server.png "Enable Live Server")
+
+7.  Finnaly Visit your Actual Server Address _localhost:8000_ and refresh you browser. From now on, if you change code in your php file and save it, your browser will auto refresh 🎉🎉🎉
