@@ -12,16 +12,22 @@ Everything throughout the training including exercises will be in this repositor
 
 ## Download and Setup PHP
 
-1.  Step 1: download the files
+1.  Step 1: download the files 
+   تنزيل ملفات اللغة
 
     * For Mac and Linux users you can ownload PHP from official website http://php.net/downloads.php.
+    لمستخدمي انظمة الماك واللنكس يمكنكم تحميل ملف اللغة من الموقع الرسمي اعلاه
 
     * For windows users you can donwload PHP from here https://windows.php.net/download , don't forget to choose either 64Bit or 32Bit (82) based on your OS.
-
+    لمستخدمي نظام الوندوز يمكنكم تحميل ملفات اللغة من الموقع اعلاه ولكن قبل التحميل تاكد من اختيار المسار الصحيح للنظام هل هو 64 
+    بت ام 32 بت
+   **** ملاحضة تذكر ان عملية تنزيل الملفات تكون على صيغة ملفات مضغوطة
+   
 2.  Step 2: extract the files
+   **بعد اكتمال عملية التنزيل ناتي الى عملية فك الضغط
 
     * After you download PHP as a zip file, then you need to extract PHP files and copy it where you OS is located Like **C:\php**.
-
+      ** بعد قيامك بعمليه فك الضغط قم بنسخ ملفات اللغة بشكل كامل وضعها في مجلد حرف سي
 3.  Step 4: add **C:php** to the path environment variable
 
     * **First way using Control Panel:** To ensure Windows can find PHP, you need to change the path environment variable. From the Control Panel, choose System, select the **“Advanced”** tab, and click the **“Environment Variables”** button. Scroll down the System variables list and click on **“Path”** followed by the “Edit” button. Enter “;C:\php” to the end of the Variable value line (remember the semi-colon). When you finish, you might need to reboot at this stage.
@@ -30,6 +36,9 @@ Everything throughout the training including exercises will be in this repositor
 
     * **Second way using Command Line:** If you have PHP folder inside **C:\php** and want to add to the path variable, we can run the below command.
       `setx path "%path%;c:\php"`
+      
+         ** عملية اضافة الباث الخاص بلغة بي اج بي الى الباثات الخاصة بنظام التشغيل فائدة هذه العملية لكي تعمل اللغة دون الحاجة لتنصيب سيرفر تشغيل خاص بها    
+         ابحث في الكوكل حول كيفية اضافة باث الى النظام واتبع الخطوات
 
 ## Enable Live Reload with VSCode Live Server Extention
 
