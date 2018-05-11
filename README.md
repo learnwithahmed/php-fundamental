@@ -36,7 +36,7 @@ Everything throughout the training including exercises will be in this repositor
 1.  Install VS Code from Microsoft. (code editor)
 2.  Install VS Code Live Server. (extension to code editor)
 3.  Install the browser add-on;
-    1.  Chrome or Firefox.
+    1.  [Chrome](https://chrome.google.com/webstore/detail/live-server-web-extension/fiegdmejfepffgpnejdinekhfieaogmj/) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/live-server-web-extension/)
 4.  First run server on your machine. in our case just run.
     `php -S localhost:8000`
 5.  Then press **CTRL + Shift + p** inside VSCode and then look for **Live Server: Open with Live Server** and press enter.
