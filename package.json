@@ -1,0 +1,24 @@
+{
+  "name": "php-fundamentals",
+  "version": "1.0.0",
+  "description": "PHP Fundamentals from scratch and learn OOP with Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeForKirkuk/php-fundamental.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeForKirkuk/php-fundamental/issues"
+  },
+  "homepage": "https://github.com/CodeForKirkuk/php-fundamental#readme",
+  "devDependencies": {
+    "@prettier/plugin-php": "github:prettier/plugin-php",
+    "prettier": "github:prettier/prettier"
+  }
+}
