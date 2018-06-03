@@ -6,9 +6,10 @@ Now we are ready to dig into building your own dynamic websites? We will see how
 
 ## Description
 
-Everything throughout the training including exercises will be in this repository.
+This repository contains code and related materials for [PHP Fundamental][video list] playlist.
 
 [instructor url]: https://github.com/AhmedAbdulrahman
+[video list]: https://www.youtube.com/playlist?list=PLOC-w_ANZDJV1E_OqZckyonhQhp1R7Xb5
 
 ## Download and Setup PHP
 
