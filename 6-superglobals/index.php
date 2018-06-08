@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Super Globals</title>
-  <!-- lets import css -->
 </head>
 <body>
   <h1>Server Information</h1>
