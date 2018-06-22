@@ -1,4 +1,4 @@
-<?php require('form_proccess.php'); ?>
+<?php include('form_proccess.php');?>
 <!DOCTYPE>
 <html>
   <head>
@@ -11,10 +11,12 @@
 
   <body>
     <div class="container">
-      <form class="form" method="GET" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <input name="email" type="text" placeholder="Email*"/>
-        <input name="password" type="password" placeholder="Password*"/>
-        <input type="submit" class="btn" value="Sign IN"/>
+      <form class="form" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <input name="email" type="text" placeholder="Email*" value="<?php echo $email; ?>"/>
+        <span><?php echo $emailError; ?></span>
+        <input name="password" type="password" placeholder="Password*" value="<?php echo $password; ?>"/>
+        <span><?php echo $passwordError; ?></span>
+        <input type="submit" name="submit" class="btn" value="Sign In"/>
       </form>
     </div>
   </body>
